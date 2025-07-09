@@ -13,3 +13,12 @@ jar {
     archiveBaseName = 'greetings'
     archiveVersion = '1.0.0'
 }
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'Hello' 
+        )
+    }
+}
+
